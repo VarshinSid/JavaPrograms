@@ -18,7 +18,7 @@ public class LinearSearch
 		LinearSearch obj = new LinearSearch();
 		int[] arr = {23,43,5,63,28,97,51,76,82,61};
 		int n = arr.length;
-		int x = 9;
+		int x = 51;
 		int ans = obj.search(arr,n,x);
 		if(ans == 0)
 		{
